@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="topbar">
+            <div class="topbar__inner container">
+                <div class="topbar__location">
+                    <img src="./img/icons/Map Pin.svg" alt="" class="icon">
+                    Store Location: Lincoln - 344, Illinois, Chicago, USA
+                </div>
+                <div class="topbar__right">
+                    <ul>
+                        <li><a href="#!">Eng
+                                <img class="arrow" src="./img/icons/grey-arrow.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Eng</a></li>
+                                <li><a href="#">Рус</a></li>
+                                <li><a href="#">Esp</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">USD
+                                <img class="arrow" src="./img/icons/grey-arrow.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Руб</a></li>
+                                <li><a href="#">JPY</a></li>
+                                <li><a href="#">GBP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="divider"></div>
+                    <div class="topbar__auth">
+                        <a href="#!" id="signInBtn">Sign In</a>
+                        <span class="slash">/</span>
+                        <a href="#!" id="signUpBtn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <div class="header-main__inner container">
+                <a href="#!" class="logo">
+                    <img src="./img/header/Logo.png" alt="Ecobazar" class="logo__icon">
+                </a>
+
+                <div class="search">
+                    <span class="search__icon">
+                        <img src="./img/icons/Search.svg" alt="">
+                    </span>
+                    <input type="text" placeholder="Search">
+                    <button class="search__btn">Search</button>
+                </div>
+
+                <div class="header-main__actions">
+                    <div class="icon-btn">
+                        <img src="./img/icons/Heart.svg" alt="Wishlist">
+                    </div>
+
+                    <div class="divider-vert"></div>
+
+                    <div class="cart-wrapper">
+                        <div class="icon-btn">
+                            <img class="js-cart-open" src="./img/icons/Rectangle.svg" alt="Cart">
+                            <span class="cart-badge js-cart-count">0</span>
+                        </div>
+                        <div class="cart-info">
+                            <span>Shopping cart:</span>
+                            <strong class="js-cart-total">$0.00</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="nav__inner container">
+                <ul class="nav__menu">
+                    <li>
+                        <a href="#">
+                            Home
+                            <img class="arrow" src="./img/icons/arrow.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Shop
+                            <img class="arrow" src="./img/icons/grey-arrow.svg" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Shop Grid</a></li>
+                            <li><a href="#">Shop List</a></li>
+                            <li><a href="#">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pages
+                            <img class="arrow" src="./img/icons/grey-arrow.svg" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Cart / Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Blog
+                            <img class="arrow" src="./img/icons/grey-arrow.svg" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Healthy Eating Tips</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <div class="nav__phone">
+                    <img src="./img/icons/PhoneCall 1.svg" alt="">
+                    (219) 555-0114
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+
+            <article class="hero-card hero-main">
+                <img src="./img/hero/hero1.jpg" alt="Woman holding vegetables" class="hero-bg-img">
+
+                <div class="hero-content">
+                    <h1>Fresh & Healthy<br>Organic Food</h1>
+                    <div class="sale-badge">
+                        Sale up to <span class="highlight">30% OFF</span>
+                    </div>
+                    <p class="subtext">Free shipping on all your order.</p>
+                    <a href="#" class="btn-primary">Shop now <span class="arrow"><img src="./img/arrows/green-arrow.svg"
+                                alt=""></span></a>
+                </div>
+            </article>
+
+            <div class="hero-side">
+
+                <article class="hero-card summer-sale">
+                    <img src="./img/hero/hero2.jpg" alt="Groceries in a bag" class="side-img">
+
+                    <div class="side-content content-top">
+                        <span class="tag">SUMMER SALE</span>
+                        <h2>75% OFF</h2>
+                        <p>Only Fruit & Vegetable</p>
+                        <a href="#" class="text-link">Shop Now <span class="arrow"><img
+                                    src="./img/arrows/green-arrow.svg" alt=""></span></a>
+                    </div>
+                </article>
+
+                <article class="hero-card best-deal">
+                    <img src="./img/hero/hero3.jpg" alt="Dark leaves background" class="side-img">
+
+                    <div class="side-content dark-theme centered-content">
+                        <span class="tag">BEST DEAL</span>
+                        <h2>Special Products<br>Deal of the Month</h2>
+                        <a href="#" class="text-link">Shop Now <span class="arrow"><img
+                                    src="./img/arrows/green-arrow.svg" alt=""></span></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <div class="features-wrapper">
+                <div class="features-grid">
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="./img/icons/delivery-truck.svg" alt="Free Shipping">
+                        </div>
+                        <div class="feature-text">
+                            <h4>Free Shipping</h4>
+                            <p>Free shipping on all your order</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="./img/icons/headphones.svg" alt="Customer Support">
+                        </div>
+                        <div class="feature-text">
+                            <h4>Customer Support 24/7</h4>
+                            <p>Instant access to Support</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="./img/icons/box.svg" alt="Secure Payment">
+                        </div>
+                        <div class="feature-text">
+                            <h4>100% Secure Payment</h4>
+                            <p>We ensure your money is save</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="./img/icons/shoping-bag.svg" alt="Money-Back Guarantee">
+                        </div>
+                        <div class="feature-text">
+                            <h4>Money-Back Guarantee</h4>
+                            <p>30 Days Money-Back Guarantee</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <div class="container">
+
+            <div class="categories-header">
+                <h2>Popular Categories</h2>
+                <a href="#" class="view-all-link">View All <span class="arrow"><img src="./img/arrows/green-arrow.svg"
+                            alt=""></span></a>
+            </div>
+
+            <div class="categories-grid">
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Fresh-Fruit.jpg" alt="Fresh Fruit">
+                    </div>
+                    <span class="cat-name">Fresh Fruit</span>
+                </a>
+
+                <a href="#" class="category-card active">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Fresh-Vegetables.jpg" alt="Fresh Vegetables">
+                    </div>
+                    <span class="cat-name">Fresh Vegetables</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Meat-Fish.jpg" alt="Meat & Fish">
+                    </div>
+                    <span class="cat-name">Meat & Fish</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Snacks.jpg" alt="Snacks">
+                    </div>
+                    <span class="cat-name">Snacks</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Beverages.jpg" alt="Beverages">
+                    </div>
+                    <span class="cat-name">Beverages</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Beauty-Health.jpg" alt="Beauty & Health">
+                    </div>
+                    <span class="cat-name">Beauty & Health</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Bread-Bakery.jpg" alt="Bread & Bakery">
+                    </div>
+                    <span class="cat-name">Bread & Bakery</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Baking-Needs.jpg" alt="Baking Needs">
+                    </div>
+                    <span class="cat-name">Baking Needs</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Cooking.jpg" alt="Cooking">
+                    </div>
+                    <span class="cat-name">Cooking</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Diabetic-Food.jpg" alt="Diabetic Food">
+                    </div>
+                    <span class="cat-name">Diabetic Food</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Dish-Detergents.jpg" alt="Dish Detergents">
+                    </div>
+                    <span class="cat-name">Dish Detergents</span>
+                </a>
+
+                <a href="#" class="category-card">
+                    <div class="cat-img">
+                        <img src="./img/Popular Categories/Oil.jpg" alt="Oil">
+                    </div>
+                    <span class="cat-name">Oil</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pp-section">
+        <div class="container">
+
+            <div class="pp-header">
+                <h2>Popular Products</h2>
+                <a href="#" class="pp-view-all">View All <img src="./img/arrows/green-arrow.svg" alt=""></a>
+            </div>
+
+            <div class="pp-grid">
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <span class="pp-sale-badge">Sale 50%</span>
+                        <img src="./img/Popular Products/Green-Apple.jpg" alt="Green Apple">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Apple</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$14.99</span>
+                            <span class="pp-old-price">$20.99</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_APPLE" data-name="Green Apple"
+                                data-image="./img/Popular Products/Green-Apple.jpg" data-price="14.99"
+                                aria-label="Add Green Apple to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Fresh-Indian-Malta.jpg" alt="Fresh Indian Malta">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Fresh Indian Malta</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$20.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="IND_MALTA" data-name="Fresh Indian Malta"
+                                data-image="./img/Popular Products/Fresh-Indian-Malta.jpg" data-price="20.00"
+                                aria-label="Add Fresh Indian Malta to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card pp-active">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Chinese-cabbage.jpg" alt="Chinese cabbage">
+                        <div class="pp-actions">
+                            <button class="pp-icon"><img src="./img/icons/heart.svg" alt=""></button>
+                            <button class="pp-icon"><img src="./img/Popular Products/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Chinese cabbage</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$12.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="CHN_CABBAGE" data-name="Chinese cabbage"
+                                data-image="./img/Popular Products/Chinese-cabbage.jpg" data-price="12.00"
+                                aria-label="Add Chinese cabbage to cart">
+                                <img src="./img/Popular Products/Add-green-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Green-Lettuce.jpg" alt="Green Lettuce">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Lettuce</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$9.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_LETTUCE" data-name="Green Lettuce"
+                                data-image="./img/Popular Products/Green-Lettuce.jpg" data-price="9.00"
+                                aria-label="Add Green Lettuce to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Eggplant.jpg" alt="Eggplant">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Eggplant</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$34.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="EGGPLANT" data-name="Eggplant"
+                                data-image="./img/Popular Products/Eggplant.jpg" data-price="34.00"
+                                aria-label="Add Eggplant to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Big-Potatoes.jpg" alt="Big Potatoes">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Big Potatoes</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$20.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="BIG_POTATOES" data-name="Big Potatoes"
+                                data-image="./img/Popular Products/Big-Potatoes.jpg" data-price="20.00"
+                                aria-label="Add Big Potatoes to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Corn.jpg" alt="Corn">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Corn</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$20.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="CORN" data-name="Corn"
+                                data-image="./img/Popular Products/Corn.jpg" data-price="20.00"
+                                aria-label="Add Corn to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/fresh-cauliflower.jpg" alt="Fresh Cauliflower">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Fresh Cauliflower</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$12.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="CAULIFLOWER" data-name="Fresh Cauliflower"
+                                data-image="./img/Popular Products/fresh-cauliflower.jpg" data-price="12.00"
+                                aria-label="Add Fresh Cauliflower to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <span class="pp-sale-badge">Sale 50%</span>
+                        <img src="./img/Popular Products/Green-Capsicum.jpg" alt="Green Capsicum">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Capsicum</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$9.00</span>
+                            <span class="pp-old-price">$20.99</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_CAPSICUM" data-name="Green Capsicum"
+                                data-image="./img/Popular Products/Green-Capsicum.jpg" data-price="9.00"
+                                aria-label="Add Green Capsicum to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Green-Chili.jpg" alt="Green Chilli">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Chilli</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$34.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_CHILI" data-name="Green Chilli"
+                                data-image="./img/Popular Products/Green-Chili.jpg" data-price="34.00"
+                                aria-label="Add Green Chilli to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bd-section">
+        <div class="container">
+            <div class="bd-grid">
+
+                <article class="bd-card bd-blue">
+                    <img src="./img/banners/blue-banner.jpg" alt="Vegetables background" class="bd-bg">
+
+                    <div class="bd-content">
+                        <span class="bd-tag">BEST DEALS</span>
+                        <h3 class="bd-title">Sale of the Month</h3>
+
+                        <div class="bd-timer">
+                            <div class="bd-time-box"><span>00</span><small>DAYS</small></div>
+                            <span class="bd-colon">:</span>
+                            <div class="bd-time-box"><span>02</span><small>HOURS</small></div>
+                            <span class="bd-colon">:</span>
+                            <div class="bd-time-box"><span>18</span><small>MINS</small></div>
+                            <span class="bd-colon">:</span>
+                            <div class="bd-time-box"><span>46</span><small>SECS</small></div>
+                        </div>
+
+                        <a href="#" class="bd-btn bd-btn-bottom">Shop Now <img src="./img/arrows/green-arrow.svg"
+                                alt=""></a>
+                    </div>
+                </article>
+
+                <article class="bd-card bd-black">
+                    <img src="./img/banners/black-banner.jpg" alt="Meat background" class="bd-bg">
+
+                    <div class="bd-content">
+                        <span class="bd-tag">85% FAT FREE</span>
+                        <h3 class="bd-title">Low-Fat Meat</h3>
+
+                        <div class="bd-price-info">
+                            Started at <span class="bd-price">$79.99</span>
+                        </div>
+
+                        <a href="#" class="bd-btn bd-btn-upper">Shop Now <img src="./img/arrows/green-arrow.svg"
+                                alt=""></a>
+                    </div>
+                </article>
+
+                <article class="bd-card bd-yellow">
+                    <img src="./img/banners/yellow-banner.jpg" alt="Fruit background" class="bd-bg">
+
+                    <div class="bd-content">
+                        <span class="bd-tag">SUMMER SALE</span>
+                        <h3 class="bd-title">100% Fresh Fruit</h3>
+
+                        <div class="bd-price-info">
+                            Up to <span class="bd-off-badge">64% OFF</span>
+                        </div>
+
+                        <a href="#" class="bd-btn bd-btn-bottom">Shop Now <img src="./img/arrows/green-arrow.svg"
+                                alt=""></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hd-section">
+        <div class="container">
+
+            <div class="hd-header">
+                <h2>Hot Deals</h2>
+                <a href="#" class="hd-view-all">View All <img src="./img/arrows/green-arrow.svg" alt=""></a>
+            </div>
+
+            <div class="hd-grid">
+
+                <article class="hd-featured">
+                    <div class="hd-badges">
+                        <span class="hd-badge hd-badge-sale">Sale 50%</span>
+                        <span class="hd-badge hd-badge-best">Best Sale</span>
+                    </div>
+
+                    <div class="hd-featured-img">
+                        <img src="./img/Popular Products/Chinese-cabbage.jpg" alt="Chinese cabbage">
+                    </div>
+
+                    <div class="hd-featured-actions">
+                        <button class="hd-icon-btn">
+                            <img src="./img/icons/heart.svg" alt="">
+                        </button>
+                        <button type="button" class="hd-add-cart add" data-sku="CHN_CABBAGE" data-name="Chinese cabbage"
+                            data-image="./img/Popular Products/Chinese-cabbage.jpg" data-price="12.00"
+                            aria-label="Add Chinese cabbage to cart">
+                            Add to Cart
+                            <img src="./img/icons/white-rectangle.svg" alt="">
+                        </button>
+                        <button class="hd-icon-btn">
+                            <img src="./img/Popular Products/eye.png" alt="">
+                        </button>
+                    </div>
+
+                    <div class="hd-featured-info">
+                        <h3 class="hd-featured-title">Chinese cabbage</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                            <span class="hd-old-price">$24.00</span>
+                        </div>
+                        <div class="hd-rating-row">
+                            <div class="pp-rating" style="--rating: 5;"></div>
+                            <span class="hd-feedback">(524 Feedback)</span>
+                        </div>
+
+                        <p class="hd-timer-label">Hurry up! Offer ends in:</p>
+                        <div class="hd-timer">
+                            <div class="hd-time-box"><span>01</span><small>DAYS</small></div>
+                            <span class="hd-colon">:</span>
+                            <div class="hd-time-box"><span>23</span><small>HOURS</small></div>
+                            <span class="hd-colon">:</span>
+                            <div class="hd-time-box"><span>34</span><small>MINS</small></div>
+                            <span class="hd-colon">:</span>
+                            <div class="hd-time-box"><span>57</span><small>SECS</small></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Chinese-cabbage.jpg" alt="Chinese cabbage">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Chinese cabbage</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="CHN_CABBAGE" data-name="Chinese cabbage"
+                                data-image="./img/Popular Products/Chinese-cabbage.jpg" data-price="12.00"
+                                aria-label="Add Chinese cabbage to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Green-Lettuce.jpg" alt="Green Lettuce">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Green Lettuce</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$9.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="GRN_LETTUCE" data-name="Green Lettuce"
+                                data-image="./img/Popular Products/Green-Lettuce.jpg" data-price="9.00"
+                                aria-label="Add Green Lettuce to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Eggplant.jpg" alt="Eggplant">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Eggplant</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$34.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="EGGPLANT" data-name="Eggplant"
+                                data-image="./img/Popular Products/Eggplant.jpg" data-price="34.00"
+                                aria-label="Add Eggplant to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/fresh-cauliflower.jpg" alt="Fresh Cauliflower">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Fresh Cauliflower</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="CAULIFLOWER" data-name="Fresh Cauliflower"
+                                data-image="./img/Popular Products/fresh-cauliflower.jpg" data-price="12.00"
+                                aria-label="Add Fresh Cauliflower to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <span class="pp-sale-badge">Sale 50%</span>
+                        <img src="./img/Popular Products/Green-Capsicum.jpg" alt="Green Capsicum">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Green Capsicum</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$9.00</span>
+                            <span class="hd-old-price">$20.99</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="GRN_CAPSICUM" data-name="Green Capsicum"
+                                data-image="./img/Popular Products/Green-Capsicum.jpg" data-price="9.00"
+                                aria-label="Add Green Capsicum to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Green-Chili.jpg" alt="Green Chili">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Green Chili</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$34.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="GRN_CHILI" data-name="Green Chili"
+                                data-image="./img/Popular Products/Green-Chili.jpg" data-price="34.00"
+                                aria-label="Add Green Chili to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Big-Potatoes.jpg" alt="Big Potatoes">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Big Potatoes</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="BIG_POTATOES" data-name="Big Potatoes"
+                                data-image="./img/Popular Products/Big-Potatoes.jpg" data-price="12.00"
+                                aria-label="Add Big Potatoes to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Corn.jpg" alt="Corn">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Corn</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="CORN" data-name="Corn"
+                                data-image="./img/Popular Products/Corn.jpg" data-price="12.00"
+                                aria-label="Add Corn to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Red-Chili.jpg" alt="Red Chili">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Red Chili</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$12.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="RED_CHILI" data-name="Red Chili"
+                                data-image="./img/Popular Products/Red-Chili.jpg" data-price="12.00"
+                                aria-label="Add Red Chili to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <span class="pp-sale-badge">Sale 50%</span>
+                        <img src="./img/Popular Products/Red-Tomatos.jpg" alt="Red Tomatoes">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Red Tomatoes</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$9.00</span>
+                            <span class="hd-old-price">$20.99</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="RED_TOMATOES" data-name="Red Tomatoes"
+                                data-image="./img/Popular Products/Red-Tomatos.jpg" data-price="9.00"
+                                aria-label="Add Red Tomatoes to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hd-card">
+                    <div class="hd-img-box">
+                        <img src="./img/Popular Products/Surjapur-Mango.jpg" alt="Surjapur Mango">
+                    </div>
+                    <div class="hd-info">
+                        <h3 class="hd-title">Surjapur Mango</h3>
+                        <div class="hd-price-row">
+                            <span class="hd-price">$34.00</span>
+                        </div>
+                        <div class="hd-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="hd-cart-btn add" data-sku="SRJ_MANGO" data-name="Surjapur Mango"
+                                data-image="./img/Popular Products/Surjapur-Mango.jpg" data-price="34.00"
+                                aria-label="Add Surjapur Mango to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-section">
+        <div class="container">
+            <div class="pb-banner">
+
+                <div class="pb-content">
+                    <span class="pb-tag">SUMMER SALE</span>
+                    <h2 class="pb-title">37% <span>OFF</span></h2>
+                    <p class="pb-text">Free on all your order, Free Shipping and 30 days money-back guarantee</p>
+                    <a href="#" class="pb-btn">Shop Now <img src="./img/arrows/white-arrow.svg" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pp-section">
+        <div class="container">
+
+            <div class="pp-header">
+                <h2>Featured Products</h2>
+                <a href="#" class="pp-view-all">View All <img src="./img/arrows/green-arrow.svg" alt=""></a>
+            </div>
+
+            <div class="pp-grid">
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <span class="pp-sale-badge">Sale 50%</span>
+                        <img src="./img/Popular Products/Green-Apple.jpg" alt="Green Apple">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Apple</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$14.99</span>
+                            <span class="pp-old-price">$20.99</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_APPLE" data-name="Green Apple"
+                                data-image="./img/Popular Products/Green-Apple.jpg" data-price="14.99"
+                                aria-label="Add Green Apple to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Fresh-Indian-Malta.jpg" alt="Fresh Indian Malta">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Fresh Indian Malta</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$20.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="IND_MALTA" data-name="Fresh Indian Malta"
+                                data-image="./img/Popular Products/Fresh-Indian-Malta.jpg" data-price="20.00"
+                                aria-label="Add Fresh Indian Malta to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card pp-active">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Chinese-cabbage.jpg" alt="Chinese cabbage">
+                        <div class="pp-actions">
+                            <button class="pp-icon"><img src="./img/icons/heart.svg" alt=""></button>
+                            <button class="pp-icon"><img src="./img/Popular Products/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Chinese cabbage</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$12.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="CHN_CABBAGE" data-name="Chinese cabbage"
+                                data-image="./img/Popular Products/Chinese-cabbage.jpg" data-price="12.00"
+                                aria-label="Add Chinese cabbage to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Green-Lettuce.jpg" alt="Green Lettuce">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Green Lettuce</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$9.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="GRN_LETTUCE" data-name="Green Lettuce"
+                                data-image="./img/Popular Products/Green-Lettuce.jpg" data-price="9.00"
+                                aria-label="Add Green Lettuce to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pp-card">
+                    <div class="pp-img-box">
+                        <img src="./img/Popular Products/Eggplant.jpg" alt="Eggplant">
+                    </div>
+                    <div class="pp-info">
+                        <h3 class="pp-title">Eggplant</h3>
+                        <div class="pp-price-row">
+                            <span class="pp-price">$34.00</span>
+                        </div>
+                        <div class="pp-bottom">
+                            <div class="pp-rating" style="--rating: 4;"></div>
+                            <button type="button" class="pp-cart-btn add" data-sku="EGGPLANT" data-name="Eggplant"
+                                data-image="./img/Popular Products/Eggplant.jpg" data-price="34.00"
+                                aria-label="Add Eggplant to cart">
+                                <img src="./img/Popular Products/Add-btn.png" alt="Add to cart">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ln-section">
+        <div class="container">
+
+            <div class="ln-header">
+                <h2>Latest News</h2>
+            </div>
+
+            <div class="ln-grid">
+
+                <article class="ln-card">
+                    <div class="ln-img-box">
+                        <img src="./img/latest news/news-1.jpg" alt="News Image">
+                        <div class="ln-date">
+                            <span class="ln-day">18</span>
+                            <span class="ln-month">NOV</span>
+                        </div>
+                    </div>
+
+                    <div class="ln-info">
+                        <div class="ln-meta">
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/tag.svg" alt="">
+                                Food
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/user_3.svg" alt="">
+                                By Admin
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/ChatCentered.svg" alt="">
+                                65 Comments
+                            </span>
+                        </div>
+
+                        <h3 class="ln-title">Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.
+                        </h3>
+
+                        <a href="#" class="ln-read-more">Read More <img src="./img/arrows/green-arrow.svg" alt=""></a>
+                    </div>
+                </article>
+
+                <article class="ln-card">
+                    <div class="ln-img-box">
+                        <img src="./img/latest news/news-2.jpg" alt="News Image">
+                        <div class="ln-date">
+                            <span class="ln-day">29</span>
+                            <span class="ln-month">JAN</span>
+                        </div>
+                    </div>
+
+                    <div class="ln-info">
+                        <div class="ln-meta">
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/tag.svg" alt="">
+                                Food
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/user_3.svg" alt="">
+                                By Admin
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/ChatCentered.svg" alt="">
+                                65 Comments
+                            </span>
+                        </div>
+
+                        <h3 class="ln-title">Eget lobortis lorem lacinia. Vivamus pharetra semper,</h3>
+
+                        <a href="#" class="ln-read-more">Read More <img src="./img/arrows/green-arrow.svg" alt=""></a>
+                    </div>
+                </article>
+
+                <article class="ln-card">
+                    <div class="ln-img-box">
+                        <img src="./img/latest news/news-3.jpg" alt="News Image">
+                        <div class="ln-date">
+                            <span class="ln-day">21</span>
+                            <span class="ln-month">FEB</span>
+                        </div>
+                    </div>
+
+                    <div class="ln-info">
+                        <div class="ln-meta">
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/tag.svg" alt="">
+                                Food
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/user_3.svg" alt="">
+                                By Admin
+                            </span>
+                            <span class="ln-meta-item">
+                                <img src="./img/latest news/ChatCentered.svg" alt="">
+                                65 Comments
+                            </span>
+                        </div>
+
+                        <h3 class="ln-title">Maecenas blandit risus elementum mauris malesuada.</h3>
+
+                        <a href="#" class="ln-read-more">Read More <img src="./img/arrows/green-arrow.svg" alt=""></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ct-section">
+        <div class="container">
+
+            <div class="swiper ct-slider">
+
+                <div class="ct-header">
+                    <h2>Client Testimonials</h2>
+
+                    <div class="ct-nav">
+                        <button class="ct-arrow-btn prev">
+                            <img src="./img/Client Testimonials/white-button.png" alt="Previous">
+                        </button>
+                        <button class="ct-arrow-btn next">
+                            <img src="./img/Client Testimonials/green-button.png" alt="Next">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ct-grid swiper-wrapper">
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="./img/Client Testimonials/human-1.jpg" alt="Robert Fox" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Robert Fox</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="./img/Client Testimonials/human-2.jpg" alt="Dianne Russell" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Dianne Russell</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="./img/Client Testimonials/human-3.jpg" alt="Eleanor Pena" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Eleanor Pena</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="" alt="Eleanor Pena" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Eleanor Pena</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="" alt="Eleanor Pena" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Eleanor Pena</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-card swiper-slide">
+                        <div class="ct-quote">
+                            <img src="./img/Client Testimonials/quote.png" alt="Quote">
+                        </div>
+
+                        <p class="ct-text">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus
+                            imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+
+                        <div class="ct-bottom">
+                            <div class="ct-author">
+                                <img src="" alt="Eleanor Pena" class="ct-avatar">
+                                <div class="ct-author-info">
+                                    <span class="ct-name">Eleanor Pena</span>
+                                    <span class="ct-role">Customer</span>
+                                </div>
+                            </div>
+
+                            <div class="ct-rating">
+                                <img src="./img/Client Testimonials/Rating.png" alt="5 stars">
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="br-section">
+        <div class="container">
+            <div class="br-grid">
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/steps.png" alt="Steps">
+                </a>
+                <span class="br-line"></span>
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/mango.png" alt="Mango">
+                </a>
+                <span class="br-line"></span>
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/food-1.png" alt="Food">
+                </a>
+                <span class="br-line"></span>
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/food-2.png" alt="Food">
+                </a>
+                <span class="br-line"></span>
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/book-off.png" alt="Book-Off">
+                </a>
+                <span class="br-line"></span>
+
+                <a href="#" class="br-item">
+                    <img src="./img/logos/Group (1).png" alt="G Series">
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ig-section">
+        <div class="container">
+
+            <div class="ig-header">
+                <h2>Follow us on Instagram</h2>
+            </div>
+
+            <div class="ig-grid">
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-1.jpg" alt="Instagram Post 1">
+                </a>
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-2.jpg" alt="Instagram Post 2">
+                </a>
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-3.jpg" alt="Instagram Post 3">
+                </a>
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-4.jpg" alt="Instagram Post 4">
+                </a>
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-5.jpg" alt="Instagram Post 5">
+                </a>
+                <a href="https://www.instagram.com" class="ig-item">
+                    <img src="./img/Follow us on Instagram/post-6.jpg" alt="Instagram Post 6">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="nl-section">
+        <div class="container">
+            <div class="nl-wrapper">
+
+                <div class="nl-info">
+                    <h2>Subscribe our Newsletter</h2>
+                    <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu
+                        magna.</p>
+                </div>
+
+                <div class="nl-form-group">
+
+                    <div class="nl-form">
+                        <input type="email" class="nl-input" placeholder="Your email address">
+                        <button class="nl-btn">Subscribe</button>
+                    </div>
+
+                    <div class="nl-media">
+                        <a href="https://www.facebook.com" class="nl-social"><img src="./img/media/media-1.svg"
+                                alt="Facebook"></a>
+                        <a href="https://x.com" class="nl-social"><img src="./img/media/media-2.svg" alt="Twitter"></a>
+                        <a href="https://www.pinterest.com" class="nl-social"><img src="./img/media/media-3.svg"
+                                alt="Pinterest"></a>
+                        <a href="https://www.instagram.com" class="nl-social"><img src="./img/media/media-4.svg"
+                                alt="Instagram"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="ft-section">
+        <div class="container">
+
+            <div class="ft-top">
+
+                <div class="ft-brand">
+                    <a href="#" class="ft-logo">
+                        <img src="./img/footer/Logo.png" alt="Ecobazar">
+                    </a>
+                    <p class="ft-desc">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget
+                        bibendum magna congue nec.</p>
+                    <div class="ft-contacts">
+                        <span class="ft-phone">(219) 555-0114</span>
+                        <span class="ft-or">or</span>
+                        <a href="mailto:Proxy@gmail.com" class="ft-email">Proxy@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="ft-links">
+
+                    <div class="ft-col">
+                        <h4>My Account</h4>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ft-col">
+                        <h4>Helps</h4>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ft-col">
+                        <h4>Proxy</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Track Order</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ft-col">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#">Fruit & Vegetables</a></li>
+                            <li><a href="#">Meat & Fish</a></li>
+                            <li><a href="#">Bread & Bakery</a></li>
+                            <li><a href="#">Beauty & Health</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ft-bottom">
+                <span class="ft-copyright">Ecobazar eCommerce © 2021. All Rights Reserved</span>
+
+                <div class="ft-payments">
+                    <a href="https://www.apple.com/apple-pay/" class="ft-pay"><img
+                            src="./img/footer/Method-ApplePay.svg" alt="Apple Pay"></a>
+                    <a href="https://www.visa.com.my/products/visapay/consumers.html" class="ft-pay"><img
+                            src="./img/footer/Method-Visa.svg" alt="Visa"></a>
+                    <a href="#" class="ft-pay"><img src="./img/footer/Method-Discover.svg" alt="Discover"></a>
+                    <a href="https://www.mastercard.com/global/en.html" class="ft-pay"><img
+                            src="./img/footer/Method-Mastercard.svg" alt="Mastercard"></a>
+                    <a href="#"><img class="secure-payment" src="./img/footer/Cart.svg" alt="Mastercard"></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="signInModal" class="modal-overlay">
+        <div class="modal-window">
+            <div class="modal-header">
+                <h3 class="modal-title">Log In</h3>
+                <div class="close">
+                    <span class="close-btn" data-modal="signIn">&times;</span>
+                </div>
+            </div>
+            <div class="modal-content">
+                <form>
+                    <input class="modal-input email" type="text" name="Login" placeholder="Email or Login">
+                    <div class="form">
+                        <input class="modal-input password" type="password" name="Password" placeholder="Password">
+                        <a href="#!" class="forgot-password">Forgot your password?</a>
+                    </div>
+                    <button class="register">Log in</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="signUpModal" class="modal-overlay">
+        <div class="modal-window">
+            <div class="modal-header">
+                <h3 class="modal-title">Account registration</h3>
+                <div class="close">
+                    <span class="close-btn" data-modal="signUp">&times;</span>
+                </div>
+            </div>
+            <div class="modal-content">
+                <form>
+                    <input class="modal-input email" type="text" name="Login" placeholder="Email">
+                    <input class="modal-input email" type="text" name="Login" placeholder="Login">
+                    <input class="modal-input email" type="password" name="Login" placeholder="Password">
+                    <button class="register">register</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="cartModal" class="cart-modal js-cart-modal">
+        <div class="cart-window">
+            <div class="cart-modal-content">
+                <div class="cart-header">
+                    <h3>Your order</h3>
+                    <div class="close">
+                        <span class="close-btn" data-modal="cart">&times;</span>
+                    </div>
+                </div>
+
+                <div class="cart-modal-list js-cart-list">
+                    <p class="cart-empty-text">basket is empty.</p>
+                </div>
+
+                <div class="cart-modal-footer">
+                    <div class="cart-line"></div>
+                    <div class="cart-modal-total">
+                        total: <strong class="js-cart-total">$0.00</strong>
+                    </div>
+                    <button class="cart-modal-checkout">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
