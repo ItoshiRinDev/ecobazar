@@ -873,6 +873,7 @@ body {
     padding: 8px 12px;
     border-radius: 6px;
     line-height: 1;
+    width: 54px;
 }
 
 .bd-time-box small {
