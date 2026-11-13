@@ -22,23 +22,22 @@ export const Cart = {
             }
         });
 
-        const addButtons = document.querySelectorAll('.add');
-        addButtons.forEach(btn => {
-            btn.addEventListener('click', function () {
-                const sku = btn.dataset.sku;
-                const name = btn.dataset.name;
-                const image = btn.dataset.image;
-                const price = Number(btn.dataset.price);
-                const productItem = { sku, name, image, price, qty: 1 };
+        document.addEventListener('click', (event) => {
+            const btn = event.target.closest('.add');
+            if (!btn) return; 
+            const sku = btn.dataset.sku;
+            const name = btn.dataset.name;
+            const image = btn.dataset.image;
+            const price = Number(btn.dataset.price);
+            const productItem = { sku, name, image, price, qty: 1 };
 
-                if (Cart.item[sku]) {
-                    Cart.item[sku].qty += 1;
-                } else {
-                    Cart.item[sku] = productItem;
-                }
-                localStorage.setItem('cart', JSON.stringify(Cart.item));
-                Cart.render();
-            });
+            if (Cart.item[sku]) {
+                Cart.item[sku].qty += 1;
+            } else {
+                Cart.item[sku] = productItem;
+            }
+            localStorage.setItem('cart', JSON.stringify(Cart.item));
+            Cart.render();
         });
     },
 
