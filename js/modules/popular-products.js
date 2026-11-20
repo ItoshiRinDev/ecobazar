@@ -1,4 +1,4 @@
-export const Products = {
+export const Popular = {
     allProducts: [],
 
     async init() {
@@ -18,7 +18,7 @@ export const Products = {
         const grid = document.querySelector('.pp-section .pp-grid');
         if (!grid) return;
 
-        if (products.length === 0) {
+       if (products.length === 0) {
             grid.innerHTML = '<p style="padding: 20px;">Товары не найдены</p>'
             return;
         }

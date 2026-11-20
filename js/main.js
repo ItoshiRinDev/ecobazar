@@ -3,7 +3,8 @@ import { Slider } from './modules/slider.js';
 import { Cart } from './modules/cart.js';
 import { Timer } from './modules/timer.js';
 import { I18n } from './modules/i18n.js'
-import { Products } from './modules/products.js'
+import { Popular } from './modules/popular-products.js'
+import { Featured } from './modules/featured-products.js';
 
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -12,5 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     Modal.init();
     Slider.init();
     Timer.init();
-    await Products.init();
+    await Popular.init();
+    await Featured.init();
 });

@@ -1,0 +1,47 @@
+[
+    {
+    "sku": "GRN_APPLE",
+    "name": "Green Apple",
+    "image": "./img/Popular Products/Green-Apple.jpg",
+    "price": 14.99,
+    "oldPrice": 20.99,
+    "rating": 4,
+    "sale": true
+  },
+
+  {
+    "sku": "IND_MALTA",
+    "name": "Fresh Indian Malta",
+    "image": "./img/Popular Products/Fresh-Indian-Malta.jpg",
+    "price": 20.00,
+    "rating": 4,
+    "sale": false
+  },
+
+  {
+    "sku": "CHN_CABBAGE",
+    "name": "Chinese cabbage",
+    "image": "./img/Popular Products/Chinese-cabbage.jpg",
+    "price": 12.00,
+    "rating": 4,
+    "sale": false
+  },
+
+  {
+    "sku": "GRN_LETTUCE",
+    "name": "Green Lettuce",
+    "image": "./img/Popular Products/Green-Lettuce.jpg",
+    "price": 9.00,
+    "rating": 4,
+    "sale": false
+  },
+
+  {
+    "sku": "EGGPLANT",
+    "name": "Eggplant",
+    "image": "./img/Popular Products/Eggplant.jpg",
+    "price": 34.00,
+    "rating": 4,
+    "sale": false
+  }
+]

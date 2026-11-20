@@ -1319,6 +1319,44 @@ body {
     display: block;
 }
 
+.fp-section {
+   padding: 40px 0;
+   background-color: #ffffff;
+}
+
+.fp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fp-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.fp-view-all {
+    text-decoration: none;
+    color: #1b8a30;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fp-view-all img {
+    width: 16px;
+    height: auto;
+}
+
+.fp-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .ln-section {
     padding: 60px 0;
     background-color: #ffffff;
