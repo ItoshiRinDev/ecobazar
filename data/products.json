@@ -59,7 +59,7 @@
   {
     "sku": "CAULIFLOWER",
     "name": "Fresh Cauliflower",
-    "image": "./img/Popular Products/fresh-cauliflower.jpg",
+    "image": "./img/Popular Products/Fresh-cauliflower.jpg",
     "price": 12.00,
     "rating": 4,
     "sale": false
